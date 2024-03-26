@@ -11,8 +11,8 @@ if platform.system() == "Windows":
 else:
     TRANS_PATH = lambda p: p
 
-DATASET_BASE_PATH = TRANS_PATH("../dataset/")
-RESULTS_DIR = TRANS_PATH("../results/")
+DATASET_BASE_PATH = TRANS_PATH("/media/manu/data/data/2016-ITS-BrnoCompSpeed/dataset/")
+RESULTS_DIR = TRANS_PATH("/home/manu/nfs/BCS_results/BCS_results_VP2VP3/")
 
 DATASET_SESSIONS = {
     "session0": {
